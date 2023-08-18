@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Menu Page</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <a href="index.html">
+          <div class="logo">
+            <img src="asset/Photo Materials/Logo White.png" alt="logo" />
+          </div>
+        </a>
+      </div>
+
+      <div class="header-right">
+        <ul>
+          <a href="products.html">Products</a>
+          <a href="store.html">Store</a>
+          <a href="contact.html">Contact</a>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="store">
+        <section class="sections findus">
+          <div class="title">
+            <h2>Find Us</h2>
+            <p>Come visit us at our store or deliver to your house.</p>
+          </div>
+
+          <div class="address-list">
+            <div class="address block" onpointerenter="show1()">
+              <h3>Block 71</h3>
+              <p>Ariobimo Sentral, South Jakarta, RT.9/RW.4, East Kuningan, Setiabudi, Jakarta, 12950</p>
+            </div>
+
+            <div class="address woodland" onpointerenter="show2()">
+              <h3>Woodland Park Residence</h3>
+              <p>Jl. Raya Kalibata No.22, RW.7, Rawajati, Kec. Pancoran, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12750</p>
+            </div>
+
+            <div class="address ikea" onpointerenter="show3()">
+              <h3>IKEA Alam Sutra</h3>
+              <p>Alam Sutera, Jl. Jalur Sutera Boulevard No. 45, Kunciran, Kec. Pinang, Kota Tangerang, Banten 15320</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="sections map">
+          <!-- block71 -->
+          <div id="mapouter-1" class="mapouter">
+            <div class="gmap_canvas">
+              <iframe
+                class="gmap_iframe"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=block 71 setia budi&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              ></iframe
+              ><a href="https://capcuttemplate.org/">Capcut Template</a>
+            </div>
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                width: 600px;
+                height: 400px;
+              }
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                width: 600px;
+                height: 400px;
+              }
+              .gmap_iframe {
+                width: 600px !important;
+                height: 400px !important;
+              }
+            </style>
+          </div>
+          <!-- woodland -->
+          <div id="mapouter-2" class="mapouter-2">
+            <div class="gmap_canvas">
+              <iframe
+                class="gmap_iframe"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Woodland park residence&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              ></iframe
+              ><a href="https://capcuttemplate.org/">Capcuttemplate.org</a>
+            </div>
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                width: 468px;
+                height: 526px;
+              }
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                width: 468px;
+                height: 526px;
+              }
+              .gmap_iframe {
+                width: 468px !important;
+                height: 526px !important;
+              }
+            </style>
+          </div>
+          <!-- Ikea -->
+          <div id="mapouter-3" class="mapouter-3">
+            <div class="gmap_canvas">
+              <iframe
+                class="gmap_iframe"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=468&amp;height=526&amp;hl=en&amp;q=IKEA alam sutra&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              ></iframe
+              ><a href="https://capcuttemplate.org/">Capcut Templates</a>
+            </div>
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                width: 600px;
+                height: 400px;
+              }
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                width: 600px;
+                height: 400px;
+              }
+              .gmap_iframe {
+                width: 600px !important;
+                height: 400px !important;
+              }
+            </style>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+        <div class="footer-logo">
+          <img src="asset/Photo Materials/Logo White.png" alt="">
+        </div>
+        <div class="footer-list">
+          <div class="product-list">
+          <p class="yellow">Products</p>
+          <p>Coffee Based</p>
+          <p>Non-Coffee</p>
+          <p>Tea Based</p>
+          </ul>
+        </div>
+        <div class="store-list">
+          <p class="yellow">Store</p>
+          <p>Location</p>
+        </div>
+        <div class="contact-list">
+          <p class="yellow">Contact</p>
+          <p>Customer Service</p>
+        </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

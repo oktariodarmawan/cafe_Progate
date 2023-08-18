@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  font-family: "Lucida Grande";
+  box-sizing: border-box;
+}
+
+
+a {
+  text-decoration: none;
+}
+.title h2 {
+  color: #0f8b8d;
+  font-size: 48px;
+  padding:20px;
+}
+
+.title p {
+  font-size: 20px;
+  color: #143642;
+  text-align: center;
+}
+header {
+  background-color: #0f8b8d;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 500px;
+}
+
+.logo img {
+  width: 400px;
+  height: 60px;
+}
+
+.header-right ul {
+  color: white;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  column-gap: 100px;
+}
+
+.header-right a {
+  color: white;
+  list-style: none;
+}
+
+/* menu*/
+.section-product {
+  display: flex;
+  text-align: center;
+  margin: 100px 200px;
+  row-gap: 50px;
+}
+
+.side-bar-products{
+  width: 400px;
+  text-align: left;
+  padding-top: 50px;
+}
+
+.side-bar-products a{
+  text-decoration: none;
+  color: black;
+}
+.side-bar-products li{
+  list-style: none;
+}
+
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 30px;
+  column-gap: 50px;
+  margin-top: 100px;
+}
+
+.item-list img {
+  height: 100px;
+  width: 100px;
+}
+
+.item {
+  background-image: url("asset/Photo\ Materials/Coffee background.png");
+  background-size: cover;
+  border-radius: 10px;
+  height: 237px;
+  width: 237px;
+  padding-top: 35px;
+}
+
+.price {
+  color: white;
+  text-decoration: none;
+}
+.price p {
+  text-align: center;
+  color: white;
+}
+
+.price h3 {
+  padding-top: 5px;
+}
+
+/* .item-list img:hover{
+  height: 150px;
+  width: 150px;
+  position: relative;
+  bottom: 100px;
+} */
+
+.animasi{
+  height: 150px;
+  width: 150px;
+  position: relative;
+  bottom: 90px;
+}
+
+.animasi-2 {
+  position: relative;
+  top:120px;
+}
+
+footer{
+  background-color: #143642;
+}
+
+
+.footer-logo img{
+  width: 335px;
+  height: 90px;
+  
+}
+
+.footer{
+  display: flex;
+  column-gap: 300px;
+  padding-bottom: 50px;
+  margin-left: 100px;
+}
+
+.footer-logo{
+  padding-right: 100px;
+  padding-top: 20px;
+}
+
+.footer-list{
+  padding-top: 20px;
+  display: flex;
+  column-gap: 100px;
+  padding-right: 50px;
+  
+}
+.footer-list p{
+  padding-bottom: 10px;
+  color: #F9FBFE;
+}
+
+
+.yellow 
+{
+  color: #EC9A29 !important;
+  font-size: 24px;
+}
+
+/* store */
+
+.store {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  margin-top: 100px;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.address-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 20px;
+}
+.address {
+  width: 400px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.address h3{
+  text-align: left;
+  padding-left: 20px;
+  color: #143642;
+  padding-top:30px;
+}
+
+.map {
+  padding-top: 100px;
+}
+
+.mapouter-2 {
+  display: none;
+}
+
+.mapouter-3 {
+  display: none;
+}
+
+/* contact */
+.contact {
+  align-self: flex-start;
+}
+
+.holder {
+  display: flex;
+  flex-direction: row;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+
+.howcan {
+  text-align: left;
+  padding-left: 100px;
+}
+
+input {
+  border-radius: 10px;
+}
+
+.holder {
+  padding-top: 20px;
+  padding-left: 50px;
+  column-gap: 50px;
+}
+
+.holder p {
+  width: 150px;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #143642;
+}
+
+.holder input {
+  padding: 0 30px;
+}
+.message {
+  height: 200px;
+}
+button {
+  width: 335px;
+  height: 70px;
+  font-style: Lato;
+  font-weight: 400px;
+  line-height: 28.8px;
+  background-color: #a8201a;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  cursor: pointer;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  margin: 50px auto;
+}
+
+/* detail-page */
+
+.detail {
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail h2 {
+  color: #0f8b8d;
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.detail p {
+  color: #143642;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.description button {
+  width: 300px;
+}
+
+.description {
+  align-items: start;
+  text-align: left;
+}
+
+.description p {
+  font-size: 24px;
+}
+
+.description h2 {
+  color: #0f8b8d;
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: 500;
+  border-bottom: 3px solid #ec9a29;
+  width: 200px;
+}
+
+
+/* border-animation */
+
+.activeBorder {
+  border-bottom: 2px solid orange;
+}

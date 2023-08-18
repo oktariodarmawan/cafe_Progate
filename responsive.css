@@ -1,0 +1,54 @@
+@media (max-width: 679px) {
+  header {
+    width: 700px;
+  }
+
+  .homepage h1 {
+    font-size: 48px;
+  }
+
+  .homepage {
+    padding-top: 200px;
+  }
+
+  .header-right {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+
+  .img-1 {
+    height: 250px;
+    width: 250px;
+  }
+
+  .img-3 {
+    height: 250px;
+    width: 250px;
+  }
+
+  .item-list {
+    column-gap: 100px;
+  }
+
+  .item-list h3 {
+    width: 300px;
+  }
+
+  .contact p {
+    margin: 40px;
+  }
+
+  .footer-logo img {
+    width: 200px;
+  }
+
+  .footer-right {
+    column-gap: 1px;
+  }
+
+  footer {
+    column-gap: 2px;
+    padding: 4px;
+  }
+}

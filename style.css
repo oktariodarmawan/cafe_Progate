@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  font-family: "Lucida Grande";
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav{
+  padding-top: 30px;
+}
+header {
+  background-image: url("asset/Photo Materials/Coffe Header.png");
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.header-left {
+  float: left;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+  margin-top: 20px;
+  margin-right: 100px;
+  font-size: 30px;
+}
+
+.header-right a {
+  margin-right: 100px;
+  color: white;
+  border-style: none;
+  border: none;
+}
+
+.section {
+  margin: 100px auto;
+}
+
+.text {
+  text-align: center;
+  padding: 100px 15px;
+  margin: 0 auto;
+}
+
+.text h1 {
+  font-size: 60px;
+}
+
+.text {
+  font-size: 36px;
+}
+
+
+
+/* about */
+
+.item-list {
+
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  text-align: center;
+  column-gap: 200px;
+}
+
+.desc{
+  width: 400px;
+  height: 200px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 100px;
+}
+
+
+.img {
+  align-items: center;
+}
+
+.btn {
+  margin: 0 auto;
+}
+
+.item-list img {
+  border-radius: 10px;
+}
+
+.img-1 {
+  width: 300px;
+  height: 400px;
+}
+
+.img-2 {
+  width: 250px;
+  height: 250px;
+}
+
+.img-3 {
+  width: 400px;
+  height: 500px;
+}
+
+
+
+.item-list h3 {
+  border-bottom: 5px solid orange;
+  padding-bottom: 10px;
+  font-size: 36px;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+button {
+  width: 335px;
+  height: 70px;
+  font-style: Lato;
+  font-weight: 400px;
+  line-height: 28.8px;
+  background-color: #a8201a;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  cursor: pointer;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+}
+
+.gallery {
+  margin: 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  row-gap: 50px;
+}
+
+.gallery-list {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 50px;
+  column-gap: 180px;
+}
+
+.gallery-list img {
+  height: 237px;
+  width: 237px;
+  border-radius: 10px;
+}
+
+.gallery-title {
+  font-size: 36px;
+  font-family: Lato;
+  font-style: Lato;
+  text-align: center;
+  line-height: 57px;
+  color: #0f8b8d;
+}
+
+span {
+  color: #ec9a29;
+}
+
+/* contact */
+
+.contact {
+  text-align: center;
+  margin: 100px auto;
+}
+
+.contact h2 {
+  font-weight: 800px;
+  color: #0f8b8d;
+  font-size: 48px;
+}
+
+.contact p {
+  font-size: 24px;
+  font-weight: 400px;
+}
+
+.contact a {
+  color: #f9fbfe;
+}
+
+
+
+/* footer */
+
+footer{
+  background-color: #143642;
+}
+
+
+.footer-logo img{
+  width: 335px;
+  height: 90px;
+}
+
+.footer{
+  display: flex;
+  column-gap: 100px;
+  padding-bottom: 50px;
+}
+
+.footer-logo{
+  padding-right: 100px;
+  padding-top: 20px;
+}
+
+.footer-list{
+  padding-top: 20px;
+  display: flex;
+  column-gap: 100px;
+  padding-right: 50px;
+  
+}
+.footer-list p{
+  padding-bottom: 10px;
+  color: #F9FBFE;
+}
+
+
+.yellow 
+{
+  color: #EC9A29 !important;
+  font-size: 24px;
+}
